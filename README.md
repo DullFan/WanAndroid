@@ -12,7 +12,7 @@ API是使用鸿洋大佬的,地址:https://www.wanandroid.com
 
 ## UI
 
-[image](img/img1.jpg)
+![image](img/img1.jpg)
 
 ## 特点
 
