@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="centerCrop"
+            app:tint="@color/black"
+            android:id="@+id/item_head_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:id="@+id/item_head_text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/item_head_integral" />
+
+        <ImageView
+            android:src="@drawable/chevron_right_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:tint = "@color/grey"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+</layout>

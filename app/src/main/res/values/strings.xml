@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+    <string name="hello_blank_fragment">Fragment测试</string>
+    <string name="bottom_navigation_home">首页</string>
+    <string name="bottom_navigation_square">广场</string>
+    <string name="bottom_navigation_official">公众号</string>
+    <string name="bottom_navigation_system">体系</string>
+    <string name="bottom_navigation_project">项目</string>
+    <string name="dialog_loading_text">加载中...</string>
+</resources>
